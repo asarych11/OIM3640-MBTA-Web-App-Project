@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Nearest MBTA Stop</title>
+</head>
+<body>
+    <h1>Nearest MBTA Stop</h1>
+    <p>Place: {{ place }}</p>
+    <p>Stop: {{ stop }}</p>
+    <p>Wheelchair Accessible: {{ "Yes" if accessible else "No" }}</p>
+    <p>Next Departure: {{ departure_time }}</p>
+    <a href="/">Search Again</a>
+</body>
+</html>
